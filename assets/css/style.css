@@ -1,70 +1,63 @@
-.about-me-row {
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.row {
     display: flex;
   }
-.about-me-column-left {
-    flex: 30%;
+.column-left {
+    flex: 20%;
     text-align: right;
+    background-color: #829c88;
 }
-.about-me-column-right {
-    flex: 70%;
-    text-align: center;
+.column-right {
+    flex: 80%;
+    text-align: left;
     align-items: center;
+    padding: 20px 20px;
 }
-.my-work-row {
-    display: flex;
-  }
-.my-work-column-left {
-    flex: 30%;
-    text-align: right;
+h2 {
+    padding: 20px 20px;
 }
-.my-work-column-right {
-    flex: 70%;
-    text-align: center;
-    align-items: center;
-}
-.contact-me-row {
-    display: flex;
-  }
-.contact-me-column-left {
-    flex: 30%;
-    text-align: right;
-}
-.contact-me-column-right {
-    flex: 70%;
-    text-align: center;
-    align-items: center;
-}
+
 
 header {
     padding: 20px 35px;
-    background-color: #a74661;
+    background-color: #2e2e2e;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     top: 0;
 }
+header img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
 header h1 {
-    font-weight: bold;
+    font-weight: lighter;
     color: white;
+    font-size: 100px;
     margin: 0;
     text-align: center;
 }
-header nav {
-    margin: 7px 0;
+.navigation nav {
+    margin: 2px 0;
+    background-color: #2e2e2e;
+    padding: 10px 0;
 }
-header nav ul {
+.navigation nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
-header nav ul li {
+.navigation nav ul li {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
-header nav ul li a {
+.navigation nav ul li a {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -101,14 +94,23 @@ header nav ul li a {
     align-items: center;
     text-align: center;
 }
-
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.text {
+    position: absolute;
+    bottom: 8px;
+    top: 16px;
+}
 
 .grid-wrapper {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -161,4 +163,35 @@ header nav ul li a {
 }
 footer {
     text-align: center;
+    color: #829c88;
 }
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    .navigation nav ul li a {
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .contact-me ul li p {
+        padding: 10px 15px;
+        font-size: 40px;
+    }
+    .contact-me ul li a {
+        padding: 10px 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+    }
+    .about-me p {
+        font-size: 20px;
+    }
+    .about-me h2 p {
+        font-size: 13px;
+    }
+    .column-left {
+        flex: 20%;
+        text-align: right;
+        background-color: #829c88;
+        font-size: 9px;
+  }

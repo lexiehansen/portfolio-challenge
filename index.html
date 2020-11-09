@@ -2,13 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lexie's Portfolio</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
         <header>
-            <h1>Lexie Hansen</h1>
             <img src="./assets/images/lexie.jpg" alt="Lexie Smiling" />
+            <h1>Lexie Hansen</h1>
+        </header>
+
+        <section id="navigation" class="navigation">
             <nav>
                 <ul>
                     <li>
@@ -22,59 +25,62 @@
                     </li>
                 </ul>
             </nav>
-        </header>
+        </section>
 
         <section id="about-me" class="about-me">
-            <div class="about-me-row">
-                <div class="about-me-column-left">
+            <div class="row">
+                <div class="column-left">
                     <h2>
                         <p>About<br/>Me</p>
                     </h2>
                 </div>
-                <div class="about-me-column-right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="column-right">
+                    <p> <br/>Hey, I'm Lexie! I'm 25, I've been married for 4 years, and have two beautiful kids. I'm currently a student at the University of Utah working to get certified in coding. Keep scrolling to see some of my recent work.</p>
                 </div>
             </div>
         </section>
 
-        <section id="my-work" class="my-work">
-            <div class="my-work-row">
-                <div class="my-work-column-left">
+        <section id="my-work" class="my-work column-break">
+            <div class="row">
+                <div class="column-left">
                     <h2>
                         <p>My<br/>Work</p>
                     </h2>
                 </div>
-                <div class="my-work-column-right">
+                <div class="column-right">
                     <div class="grid-wrapper">
                         <div class="grid-container">
                             <figure class="grid-item grid-item-1">
-                                <a href="https://lexiehansen.github.io/run-buddy/" target="_blank">
-                                <img src="assets/images/image1.jpeg" class="grid-img" alt="Run Buddy homepage">
-                                </a>
+                                <div class="container">
+                                    <a href="https://lexiehansen.github.io/run-buddy/" target="_blank">
+                                    <img src="assets/images/image1.jpeg" class="grid-img" alt="Run Buddy homepage">
+                                    </a>
+                                    <div class="text">RUN BUDDY // HTML & CSS</div>
+                                </div>
                             </figure>
                             <figure class="grid-item grid-item-2">
                                 <a href="placeholderurl" target="_blank">
-                                <img src="assets/images/image2.jpeg" class="grid-img" alt="filler image, monochromatic pink block">
+                                <img src="assets/images/image2.jpeg" class="grid-img" alt="filler image, monochromatic green block">
                                 </a>
                             </figure>
                             <figure class="grid-item grid-item-3">
                                 <a href="placeholderurl" target="_blank">
-                                <img src="assets/images/image3.jpeg" class="grid-img" alt="filler image, monochromatic pink block">
+                                <img src="assets/images/image3.jpeg" class="grid-img" alt="filler image, monochromatic green block">
                                 </a>
                             </figure>
                             <figure class="grid-item grid-item-4">
                                 <a href="placeholderurl" target="_blank">
-                                <img src="assets/images/image4.jpeg" class="grid-img" alt="filler image, monochromatic pink block">
+                                <img src="assets/images/image4.jpeg" class="grid-img" alt="filler image, monochromatic green block">
                                 </a>
                             </figure>
                             <figure class="grid-item grid-item-5">
                                 <a href="placeholderurl" target="_blank">
-                                <img src="assets/images/image5.jpeg" class="grid-img" alt="filler image, monochromatic pink block">
+                                <img src="assets/images/image5.jpeg" class="grid-img" alt="filler image, monochromatic green block">
                                 </a>
                             </figure>
                             <figure class="grid-item grid-item-6">
                                 <a href="placeholderurl" target="_blank">
-                                <img src="assets/images/image6.jpeg" class="grid-img" alt="filler image, monochromatic pink block">
+                                <img src="assets/images/image6.jpeg" class="grid-img" alt="filler image, monochromatic green block">
                                 </a>
                             </figure>
                         </div>
@@ -84,13 +90,14 @@
         </section>
 
         <section id="contact-me" class="contact-me">
-            <div class="contact-me-row">
-                <div class="contact-me-column-left">
+            <div class="row">
+                <div class="column-left">
                     <h2>
                         <p>Contact<br/>Me</p>
                     </h2>
                 </div>
-                <div class="contact-me-column-right">
+                <div class="column-right">
+                    <br/>
                     <div class="content-info">
                         <ul>
                             <li>
@@ -100,10 +107,10 @@
                                 <p>lexiebhansen@gmail.com</p>
                             </li>
                             <li>
-                                <a href="https://www.github.com/lexiehansen/" target="_blank">GitHub</a>
+                                <a href="https://www.github.com/lexiehansen/" target="_blank">GitHub Profile</a>
                             </li>
                             <li>
-                                <a href="linkedinurl" target="_blank">LinkedIn</a>
+                                <a href="linkedinurl" target="_blank">LinkedIn Profile</a>
                             </li>
                         </ul>
                     </div>
