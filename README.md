@@ -10,4 +10,5 @@ Objectives:
 A link to my project URL via GitHub is available [here](https://lexiehansen.github.io/portfolio/).
 
 Here are screenshots of the completed webpage. Note that there are two separate screenshots.
-
+![image2](https://user-images.githubusercontent.com/72775548/98500640-40604380-220a-11eb-99a6-cf0515e80e31.jpg)
+![image1](https://user-images.githubusercontent.com/72775548/98500646-46562480-220a-11eb-809c-6f933eaa704e.jpg)
